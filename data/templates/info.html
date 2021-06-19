@@ -1,0 +1,36 @@
+<h1>Academic Search Help</h1>
+<p>Welcome to the <strong>Academic Search Project</strong>. This program is to help you find the information about great scientists like H-index, years in science and count of articles with their citations.</p>
+<h2>Using</h2>
+<h3>Engines</h3>
+<p>We support two basic engines: <em>Google Scholar</em> and <em>Microsoft Academic Search</em>. Search base of the first engine is larger than for the last one. But if you want to search a lot of persons you should use engine by <em>Microsoft</em> because <em>Google</em> will ban you soon in this case for a long time (several days) and will not response. Also there are combined engine <em>Google Schoolar + Miscrosoft Academic Search</em> and two fake engines: single <em>Test Search</em> and combined <em>Double Test Search</em>. The two last engines simple wait random time and response with random results.
+Summary, engines:</p>
+<ul>
+<li>Google Scholar;</li>
+<li>Microsoft Academic Search;</li>
+<li>Google Scholar + Microsoft Academic Search;</li>
+<li>Single Test engine;</li>
+<li>Fake Test combined-engine.</li>
+</ul>
+<h3>Search modes</h3>
+<p>There 4 modes of search:</p>
+<ul>
+<li>Single person and single search engine;</li>
+<li>Single person and multi-engine;</li>
+<li>Many persons and single engine;</li>
+<li>Many persons and multi-engine.</li>
+</ul>
+<p>In the <em>single-person and single engine</em> mode graph of articles and approximation (if needed and possible) will be generated.
+Mode of search depends on request and is detected automatically.</p>
+<h3>Search information</h3>
+<p>The program is to search the next information about persons:</p>
+<ul>
+<li>H-index or Hirsch index (or approximation);</li>
+<li>Count of articles;</li>
+<li>Years in science (approximation).</li>
+</ul>
+<h3>Search load</h3>
+<p>You can load file with search requests. The file should contain new-line separated names of scientists you want to search information about. To load search request simple click on button "...".</p>
+<h3>Search save</h3>
+<p>You can save results of searching in JSON format by clicking button "Save as JSON...".</p>
+<h3>Searching</h3>
+<p>For each person and for each search engine the program will generate a one thread. There is a minute per each task of search timeout. Sometimes <code>Google</code> engine can <strong>ban</strong> you. <code>Microsoft</code> engine can generate bad results of searching or do not response for a long time. In bad result case you will see <code>NA</code> results in result tables.</p>
